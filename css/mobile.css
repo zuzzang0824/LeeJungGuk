@@ -56,6 +56,10 @@ h2{
     width: 100vh;
     height: 100vh;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .section1 h1{
