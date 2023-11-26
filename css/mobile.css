@@ -166,9 +166,11 @@ h2 {
 }
 .section4 .box:nth-child(2) {
   background-image: url(../image/back2.jpg);
+  color: #999;
 }
 .section4 .box:nth-child(3) {
   background-image: url(../image/back3.jpg);
+  color: #999;
 }
 
 .box::before {
