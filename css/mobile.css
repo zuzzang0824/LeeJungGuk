@@ -207,6 +207,7 @@ h2 {
 
 .section5 .container {
   position: relative;
+  display: block;
 }
 
 .section5 .btnWrap {
@@ -214,7 +215,7 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+  }
 
 .section5 .btnWrap h3 {
   line-height: 110%;
