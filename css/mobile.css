@@ -167,15 +167,16 @@ h2 {
 }
 
 .section4 .box:first-child {
-  background-image: url(../image/back1.jpg);
+  background: url(../image/12.jpg) 0 72% / cover;
+  filter: grayscale(100);
 }
 .section4 .box:nth-child(2) {
-  background-image: url(../image/back2.jpg);
-  color: #999;
+  background: url(../image/knee.jpg) 0 66% / cover;
+  filter: grayscale(100);
 }
 .section4 .box:nth-child(3) {
-  background-image: url(../image/back3.jpg);
-  color: #999;
+  background: url(../image/neck.jpg) 0 40% / cover;
+  filter: grayscale(100);
 }
 
 .box::before {
@@ -307,18 +308,26 @@ h2 {
   background-image: url(../image/12.jpg);
 }
 
-.section5 .kakaoBtn {
-  margin: var(--kakao-btn-padding) 0 var(--kakao-btn-padding) 0;
+.section5 .snsBtn {
+  margin-top: var(--kakao-btn-padding);
   display: block;
   width: 100%;
   height: 3.75rem;
   background: #fee500;
   border-radius: 0.75rem;
 }
+.section5 .snsBtn:last-child {
+  margin-top: 1rem;
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
 
-.section5 .kakaoBtn p {
+.section5 .snsBtn p {
   color: #000;
   font-weight: 600;
+}
+.section5 .snsBtn:last-child p {
+  color: #fff;
+  font-weight: 400;
 }
 
 .section5 .iconWrap {
